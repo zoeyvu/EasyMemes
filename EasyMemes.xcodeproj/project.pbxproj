@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF1A828260ED29700097441 /* EasyMemesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1A827260ED29700097441 /* EasyMemesApp.swift */; };
+		BDF1A82A260ED29700097441 /* EasyMemesDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1A829260ED29700097441 /* EasyMemesDocumentView.swift */; };
+		BDF1A82C260ED29A00097441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF1A82B260ED29A00097441 /* Assets.xcassets */; };
+		BDF1A82F260ED29A00097441 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF1A82E260ED29A00097441 /* Preview Assets.xcassets */; };
+		BDF1A839260ED30400097441 /* EasyMemesDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1A838260ED30400097441 /* EasyMemesDocument.swift */; };
+		BDF1A83D260EDADC00097441 /* EasyMemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1A83C260EDADC00097441 /* EasyMemes.swift */; };
+		BDF1A840260EE04800097441 /* EmojiArtExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1A83F260EE04800097441 /* EmojiArtExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDF1A824260ED29700097441 /* EasyMemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF1A827260ED29700097441 /* EasyMemesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMemesApp.swift; sourceTree = "<group>"; };
+		BDF1A829260ED29700097441 /* EasyMemesDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMemesDocumentView.swift; sourceTree = "<group>"; };
+		BDF1A82B260ED29A00097441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF1A82E260ED29A00097441 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDF1A830260ED29A00097441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF1A838260ED30400097441 /* EasyMemesDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMemesDocument.swift; sourceTree = "<group>"; };
+		BDF1A83C260EDADC00097441 /* EasyMemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMemes.swift; sourceTree = "<group>"; };
+		BDF1A83F260EE04800097441 /* EmojiArtExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArtExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF1A821260ED29700097441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF1A81B260ED29700097441 = {
+			isa = PBXGroup;
+			children = (
+				BDF1A826260ED29700097441 /* EasyMemes */,
+				BDF1A825260ED29700097441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF1A825260ED29700097441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF1A824260ED29700097441 /* EasyMemes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF1A826260ED29700097441 /* EasyMemes */ = {
+			isa = PBXGroup;
+			children = (
+				BDF1A827260ED29700097441 /* EasyMemesApp.swift */,
+				BDF1A829260ED29700097441 /* EasyMemesDocumentView.swift */,
+				BDF1A83C260EDADC00097441 /* EasyMemes.swift */,
+				BDF1A838260ED30400097441 /* EasyMemesDocument.swift */,
+				BDF1A83F260EE04800097441 /* EmojiArtExtensions.swift */,
+				BDF1A82B260ED29A00097441 /* Assets.xcassets */,
+				BDF1A830260ED29A00097441 /* Info.plist */,
+				BDF1A82D260ED29A00097441 /* Preview Content */,
+			);
+			path = EasyMemes;
+			sourceTree = "<group>";
+		};
+		BDF1A82D260ED29A00097441 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDF1A82E260ED29A00097441 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF1A823260ED29700097441 /* EasyMemes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF1A833260ED29A00097441 /* Build configuration list for PBXNativeTarget "EasyMemes" */;
+			buildPhases = (
+				BDF1A820260ED29700097441 /* Sources */,
+				BDF1A821260ED29700097441 /* Frameworks */,
+				BDF1A822260ED29700097441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMemes;
+			productName = EasyMemes;
+			productReference = BDF1A824260ED29700097441 /* EasyMemes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF1A81C260ED29700097441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BDF1A823260ED29700097441 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BDF1A81F260ED29700097441 /* Build configuration list for PBXProject "EasyMemes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF1A81B260ED29700097441;
+			productRefGroup = BDF1A825260ED29700097441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF1A823260ED29700097441 /* EasyMemes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF1A822260ED29700097441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF1A82F260ED29A00097441 /* Preview Assets.xcassets in Resources */,
+				BDF1A82C260ED29A00097441 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF1A820260ED29700097441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF1A82A260ED29700097441 /* EasyMemesDocumentView.swift in Sources */,
+				BDF1A840260EE04800097441 /* EmojiArtExtensions.swift in Sources */,
+				BDF1A839260ED30400097441 /* EasyMemesDocument.swift in Sources */,
+				BDF1A828260ED29700097441 /* EasyMemesApp.swift in Sources */,
+				BDF1A83D260EDADC00097441 /* EasyMemes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BDF1A831260ED29A00097441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDF1A832260ED29A00097441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF1A834260ED29A00097441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyMemes/Preview Content\"";
+				DEVELOPMENT_TEAM = 7BJH2F7KAZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EasyMemes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZoeyVu.EasyMemes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF1A835260ED29A00097441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyMemes/Preview Content\"";
+				DEVELOPMENT_TEAM = 7BJH2F7KAZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EasyMemes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZoeyVu.EasyMemes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF1A81F260ED29700097441 /* Build configuration list for PBXProject "EasyMemes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF1A831260ED29A00097441 /* Debug */,
+				BDF1A832260ED29A00097441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF1A833260ED29A00097441 /* Build configuration list for PBXNativeTarget "EasyMemes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF1A834260ED29A00097441 /* Debug */,
+				BDF1A835260ED29A00097441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDF1A81C260ED29700097441 /* Project object */;
+}
